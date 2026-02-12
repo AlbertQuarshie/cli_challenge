@@ -1,0 +1,40 @@
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~
+$ mkdir cli_challenge
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~
+$ cd cli_challenge
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ touch file1.txt file2.txt file3.txt
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ mkdir backup
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ mv file1.txt backup/
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ mv file2.txt renamed_file.txt
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ cp renamed_file.txt backup/
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ ls
+backup/  file3.txt  renamed_file.txt
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ rm file3.txt
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ rm -r backup
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~/cli_challenge
+$ cd ..
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~
+$ rm -r cli_challenge
+
+Albe Jr@DESKTOP-HFUIV8G MINGW64 ~
+$
